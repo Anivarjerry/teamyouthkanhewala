@@ -210,6 +210,7 @@ h1 em, h2 em { color: var(--green); font-style: normal; }
 .johad-project { margin-top: 24px; }
 .team-photo-grid { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; }
 .team-photo img { display: block; width: 100%; height: clamp(190px,24vw,300px); object-fit: cover; background: #eef1ec; }
+.team-photo:last-child img { height: auto; object-fit: contain; object-position: center; }
 .team-photo figcaption { padding: 12px 14px; color: var(--muted); font-size: .75rem; line-height: 1.5; }
 .photo-zoom-hint { position: absolute; z-index: 1; top: 10px; right: 10px; display: grid; width: 36px; height: 36px; place-items: center; border: 1px solid rgba(255,255,255,.58); border-radius: 50%; background: rgba(15,35,25,.72); color: #fff; box-shadow: 0 4px 14px rgba(0,0,0,.18); pointer-events: none; backdrop-filter: blur(8px); }
 .photo-zoom-hint svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
